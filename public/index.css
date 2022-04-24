@@ -1,0 +1,129 @@
+nav{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 0.6rem;
+    border-bottom: 1px solid gray;
+}
+
+.navbar a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    align-items:center;
+    display: flex;
+}
+a:hover{
+    color:#D93B30;
+}
+.search select{
+    width: 13rem;
+    height: 2rem;
+    background-color: #fc1741;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 15px;
+}
+.search select option{
+    background-color: #F7F7F7;
+    color: black;
+    font-size: 15px; 
+    padding: 1rem;
+}
+.travel{
+    width: 100%;
+    height: 35rem;
+    background-image: url('./images/travel.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.travel p{
+    padding-top: 23.5%;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.travel input{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #fc1741;
+    border-radius: 1rem;
+    border : none;
+    margin-left: 32rem;
+}
+.sec-boxes{
+    margin-top: 2rem;
+    height: 24rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    height: 24rem;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.box img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.box h2{
+    padding-left: 0.5rem;
+}
+.box p{
+    padding : 0rem 0.5rem 0.5rem 0.5rem;
+}
+.ques{
+    width: 100%;
+    height: 35rem;
+    background-image: url('./images/host.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ques p{
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 3rem;
+    color: white;
+}
+.ques input{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 1rem;
+    border : none;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+footer{
+    display: flex;
+    background-color: #F7F7F7;
+}
+.endfoot{
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.col{
+    width: 25%;
+}
+.col ul{
+    list-style-type: none;
+}
+.col li{
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    text-decoration: none;
+}

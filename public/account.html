@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/MyBnB_Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./account.css">
+    <title>My Account</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="navbar">
+          <a class="navbar-logo" href="index.html" style="color: #D93B30; font-size: 2rem;">
+            <img src="./images/MyBnB_logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            &nbsp;MyBnB
+          </a>
+        </div>
+        <div class="search">
+        </div>
+        <div>
+            <a class="nav_options" href="host.html" style="padding-top: 0.7rem;" >
+                Become a Host&nbsp;
+                <img src="./images/www_icon.png" alt="" width="20" height="20" class="d-inline-block align-text-top">
+            </a>
+        </div>
+        <div>
+            <a class="nav_options" href="account.html" style="padding-top: 0.7rem;">
+                Account&nbsp;
+                <img src="./images/account-icon.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+        </div>
+    </nav> 
+    <div id="login">
+        <form onsubmit="" action="/submitLogin" method="post">
+            <label><h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+             color: white;">Enter Your Credentials</h2></label>
+            <label for="accID">Enter Username :</label><br>
+            <input id="accId" name="accId" type="text" required><br><br>
+            <label for="pwd">Password :</label><br>
+            <input id="pwd" type="password" name="pwd" type="text" required><br><br>
+            <input id="submit" type="submit" value="Submit &nbsp; &nbsp; &nbsp;>">
+        </form>
+        <p onclick="signup()" class="newAcc">New User <br> Create a New Account</a></p>
+    </div>
+    <div class="sucessLogin">
+        <p>
+            Logged In Sucessfully!!!
+        </p>
+    </div>
+    <div id="signup">
+        <form onsubmit="login()" action="submitSignUp" method="post">
+            <label><h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif; 
+            color: white;">Enter Your Details</h2></label>
+            <label for="userId">Choose your Username:</label><br>
+            <input id="userId" name="userId" type="text" required><br><br>
+            <label for="name">Name :</label><br>
+            <input id="name" name="name" type="text" required><br><br>
+            <label for="password">Password :</label><br>
+            <input id="password" type="password" name="password" type="text" required><br><br>
+            <label for="age">Age :</label><br>
+            <input id="age" name="age" type="text" required><br><br>
+            <label for="gender">Gender :</label><br>
+            <input id="gender" name="gender" type="text" required><br><br>
+            <label for="phone">Phone No :</label><br>
+            <input id="phone" name="phone" type="text" required><br><br>
+            <input id="submit2" type="submit" value="Submit &nbsp; &nbsp; &nbsp;>">
+        </form>
+    </div>
+
+    <footer>
+        <div class="col">
+            <ul>
+                <li><h3>Support</h3></li>
+                <li>Help Center</li>
+                <li>Safety Information</li>
+                <li>Cancellation options</li>
+                <li>Our COVID-19 Respons</li>
+                <li>Supporting people with disabilities</li>
+                <li>Report a neighbourhood concern</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><h3>Community</h3></li>
+                <li>MyBnB.org: disaster relief housing</li>
+                <li>Support Afghan refugees</li>
+                <li>Celebrating diversity & belonging</li>
+                <li>Combating discrimination</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><h3>Hosting</h3></li>
+                <li>Try Hosting</li>
+                <li>AirCover: protection for Hosts</li>
+                <li>Explore hosting resources</li>
+                <li>Visit our community forum</li>
+                <li>How to host responsibly</li>
+            </ul>
+        </div>
+        <div class="col">
+            
+            <ul>
+                <li><h3>About</h3></li>
+                <li>Newsroom</li>
+                <li>Learn about new features</li>
+                <li>Letter from our founders</li>
+                <li>Careers</li>
+                <li>Investors</li>
+                <li>MyBnB Luxe</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="endfoot">
+        © 2022 MyBnB, Inc. · Privacy · Terms · Sitemap · Company details
+    </div>
+</body>
+<script>
+    function signup(){
+        document.getElementById('login').style.cssText = 'display:none;';
+        document.getElementById('signup').style.cssText = 'display:block;';
+        window.location.href = "#signup";
+    }
+    function login(){
+        document.getElementsByClassName('sucessLogin').style.cssText = 'display:block;';
+        document.getElementById('login').style.cssText = 'display:none;';
+    }
+</script>
+</html>

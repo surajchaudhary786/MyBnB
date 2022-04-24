@@ -1,0 +1,118 @@
+nav{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 0.6rem;
+    border-bottom: 1px solid gray;
+}
+
+.navbar a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    align-items:center;
+    display: flex;
+}
+a:hover{
+    color:#D93B30;
+}
+.search select{
+    width: 13rem;
+    height: 2rem;
+    background-color: #fc1741;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 15px;
+}
+.search select option{
+    background-color: #F7F7F7;
+    color: black;
+    font-size: 15px; 
+    padding: 1rem;
+}
+.try{
+    width: 100%;
+    height: 35rem;
+    background-image: url('./images/tryHosting.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.try #try1{
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 3rem;
+    color: white;
+}
+.try #try2{
+    padding-left: 5%;
+    color: white;
+    font-size: 2rem;
+}
+.try input{
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 1rem;
+    border : none;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+#formHost{
+    color: white;
+    display: none;
+    background-color:rgb(44, 43, 43);
+    border-radius: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Texturina', serif;
+}
+#formHost input{
+    margin-bottom: 5vh;
+    width: 15rem;
+    padding: 3px;
+}
+#submit{
+    background-color:  rgba(255, 0, 0, 0.699);
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    max-width: 10rem;
+    font-family: 'Kaushan Script', cursive;
+}
+#submit:hover{
+    background-color: #fc1741;
+}
+footer{
+    display: flex;
+    background-color: #F7F7F7;
+}
+.endfoot{
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.col{
+    width: 25%;
+}
+.col ul{
+    list-style-type: none;
+}
+.col li{
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    text-decoration: none;
+}

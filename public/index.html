@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/MyBnB_Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+    <title>MyBnB</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="navbar">
+          <a class="navbar-logo" href="index.html" style="color: #D93B30; font-size: 2rem;">
+            <img src="./images/MyBnB_logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+            &nbsp;MyBnB
+          </a>
+        </div>
+        <div class="search">
+        </div>
+        <div>
+            <a class="nav_options" href="host.html" style="padding-top: 0.7rem;" >
+                Become a Host&nbsp;
+                <img src="./images/www_icon.png" alt="" width="20" height="20" class="d-inline-block align-text-top">
+            </a>
+        </div>
+        <div>
+            <a class="nav_options" href="account.html" style="padding-top: 0.7rem;">
+                Account&nbsp;
+                <img src="./images/account-icon.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+        </div>
+    </nav>
+
+    <div class="travel">
+        <p>Not sure where to go? Perfect</p>
+        <input type="button" onclick="allDest()" value="I'm Flexible">
+    </div>
+
+    <div class="sec-boxes" role="section">
+        <div class="box manali" onclick="manali()" style="background-color:  #CC2D4A;">
+            <img src="./images/manali.jpg" alt="" width="100%" height="40%";>
+            <h2>Manali</h2>
+            <p>Manali is a high-altitude Himalayan resort town in Himachal Pradesh. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley.</p>
+        </div>
+        <div class="box shimla" onclick="shimla()" style="background-color: #fc1741;">
+            <img src="./images/shimla.jpg" alt="" width="100%" height="40%";>
+            <h2>Shimla</h2>
+            <p>Shimla is the capital of Himachal Pradesh and a popular hill-station among Indian families and honeymooners. Shimla was the summer capital of British India.</p>
+        </div>
+        <div class="box goa" onclick="goa()" style="background-color: #fc2c1d;">
+            <img src="./images/goa.jpg" alt="" width="100%" height="40%";>
+            <h2>Goa</h2>
+            <p>Goa is India's smallest state and unlike any other, known for its endless beaches, stellar nightlife, eclectic seafood, world-heritage listed architecture.</p>
+        </div>
+        <div class="box andaman" onclick="andaman()" style="background-color: #D93B30;">
+            <img src="./images/andaman.jpg" alt="" width="100%" height="40%";>
+            <h2>Andaman</h2>
+            <p>Andamans have the most exotic beach and some of them also give the opportunity of trying out a number of water sports such as Scuba Diving, Snorkeling, Sea Walk etc.</p>
+        </div>
+    </div>
+
+    <div class="ques">
+        <p>Questions <br>about <br>hosting?</p>
+        <input type="button" value="Ask a Superhost">
+    </div>
+
+    <footer>
+        <div class="col">
+            <ul>
+                <li><h3>Support</h3></li>
+                <li>Help Center</li>
+                <li>Safety Information</li>
+                <li>Cancellation options</li>
+                <li>Our COVID-19 Respons</li>
+                <li>Supporting people with disabilities</li>
+                <li>Report a neighbourhood concern</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><h3>Community</h3></li>
+                <li>MyBnB.org: disaster relief housing</li>
+                <li>Support Afghan refugees</li>
+                <li>Celebrating diversity & belonging</li>
+                <li>Combating discrimination</li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul>
+                <li><h3>Hosting</h3></li>
+                <li>Try Hosting</li>
+                <li>AirCover: protection for Hosts</li>
+                <li>Explore hosting resources</li>
+                <li>Visit our community forum</li>
+                <li>How to host responsibly</li>
+            </ul>
+        </div>
+        <div class="col">
+            
+            <ul>
+                <li><h3>About</h3></li>
+                <li>Newsroom</li>
+                <li>Learn about new features</li>
+                <li>Letter from our founders</li>
+                <li>Careers</li>
+                <li>Investors</li>
+                <li>MyBnB Luxe</li>
+            </ul>
+        </div>
+    </footer>
+    <div class="endfoot">
+        © 2022 MyBnB, Inc. · Privacy · Terms · Sitemap · Company details
+    </div>
+</body>
+<script>
+    function manali(){
+        window.open('manali.html', '_blank');
+        //document.getElementsByClassName('manali').style.cssText = 'display:block;';
+    }
+    function shimla(){
+        //document.getElementsByClassName('manali').style.cssText = 'display:block;';
+        window.open('shimla.html', '_blank');
+    }
+    function goa(){
+        //document.getElementsByClassName('manali').style.cssText = 'display:block;';
+        window.open('goa.html', '_blank');
+    }
+    function andaman(){
+        //document.getElementsByClassName('manali').style.cssText = 'display:block;';
+        window.open('andaman.html', '_blank');
+    }
+    function allDest(){
+        //document.getElementsByClassName('manali').style.cssText = 'display:block;';
+        window.open('destination.html', '_blank');
+    }
+</script>
+</html>

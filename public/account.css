@@ -1,0 +1,128 @@
+nav{
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 0.6rem;
+    border-bottom: 1px solid gray;
+}
+.navbar a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    align-items:center;
+    display: flex;
+}
+a:hover{
+    color:#D93B30;
+}
+.search select{
+    width: 13rem;
+    height: 2rem;
+    background-color: #fc1741;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 15px;
+}
+.search select option{
+    background-color: #F7F7F7;
+    color: black;
+    font-size: 15px; 
+    padding: 1rem;
+}
+#login{
+    color: white;
+    background-color:darkcyan;
+    border-radius: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Texturina', serif;
+}
+#login input{
+    margin-bottom: 5vh;
+    width: 15rem;
+}
+#submit{
+    background-color:  white;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    max-width: 10rem;
+    font-family: 'Kaushan Script', cursive;
+}
+#submit:hover{
+    background-color:rgb(195, 195, 236);
+}
+#login .newAcc{
+    border-radius: 0.4rem;
+    background-color: #FC1741;
+    padding: 0.5rem;
+    width: 10rem;
+}
+#signup{
+    color: white;
+    display: none;
+    background-color:darkcyan;
+    border-radius: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 20%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Texturina', serif;
+}
+#signup input{
+    margin-bottom: 5vh;
+    width: 15rem;
+    padding: 3px;
+}
+#submit2{
+    background-color: #FC1741;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    max-width: 10rem;
+    font-family: 'Kaushan Script', cursive;
+}
+#submit2:hover{
+    background-color: white;
+}
+.sucessLogin{
+    text-align: center;
+    font-size: 2rem;
+    display: none;
+}
+footer{
+    display: flex;
+    background-color: #F7F7F7;
+}
+.endfoot{
+    background-color: #F7F7F7;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.col{
+    width: 25%;
+}
+.col ul{
+    list-style-type: none;
+}
+.col li{
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    text-decoration: none;
+}

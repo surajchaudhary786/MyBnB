@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/MyBnB_Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./bill.css">
+    <title>Billing Page</title>
+</head>
+<body>
+    <div class="navbar">
+        <a class="navbar-logo" href="index.html" style="color: #D93B30; font-size: 2rem;">
+          <img src="./images/MyBnB_logo.png" alt="" width="40" height="40">
+          &nbsp;MyBnB
+        </a>
+    </div>
+    <img id="billImg" src="./images/booking.png" alt="" >
+    <div id="billDst">
+        <form onsubmit="return confirm()" action="/submitBill" method="post">
+            <label><h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;
+             color: white;">Enter Booking Details</h2></label>
+            <label for="propId">Enter Property Id :</label><br>
+            <input id="propId" name="propId" type="text" required><br><br>
+            <label for="fromDate">Start Date :</label><br>
+            <input id="fromDate" name="fromDate" type="date" required><br><br>
+            <label for="toDate">End Date :</label><br>
+            <input id="toDate" name="toDate" type="date"  required><br><br>
+            <input id="submit" type="submit" value="Submit &nbsp; &nbsp; &nbsp;>">
+        </form>
+    </div>
+</body>
+<script>
+    function confirm(){
+        alert("Do you want to confirm your booking ?");
+    }
+</script>
+</html>

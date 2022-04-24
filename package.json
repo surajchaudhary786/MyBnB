@@ -1,0 +1,20 @@
+{
+  "name": "mybnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conn.js",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suraj Chaudhry",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "randomstring": "^1.2.1"
+  }
+}
